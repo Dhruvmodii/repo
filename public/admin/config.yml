@@ -1,0 +1,101 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "site_info"
+    label: "Site Info"
+    files:
+      - label: "Personal Info"
+        name: "personal_info"
+        file: "content/site.json"
+        format: json
+        fields:
+          - { label: "Full Name", name: "name", widget: "string" }
+          - { label: "Role / Title", name: "role", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "text" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "GitHub URL", name: "github", widget: "string", required: false }
+          - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+          - { label: "Twitter URL", name: "twitter", widget: "string", required: false }
+          - { label: "Resume PDF URL", name: "resumeUrl", widget: "string", required: false }
+          - { label: "Available for Work", name: "availableForWork", widget: "boolean", default: true }
+          - { label: "Profile Photo", name: "photo", widget: "image", required: false }
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+
+  - name: "projects"
+    label: "Projects"
+    files:
+      - label: "Projects List"
+        name: "projects_list"
+        file: "content/projects.json"
+        format: json
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Short Description", name: "description", widget: "text" }
+              - { label: "Long Description", name: "longDescription", widget: "text", required: false }
+              - label: "Tech Stack"
+                name: "tech"
+                widget: "list"
+                field: { label: "Technology", name: "item", widget: "string" }
+              - { label: "GitHub URL", name: "github", widget: "string", required: false }
+              - { label: "Live URL", name: "live", widget: "string", required: false }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false }
+              - { label: "Year", name: "year", widget: "string" }
+
+  - name: "skills"
+    label: "Skills"
+    files:
+      - label: "Skills List"
+        name: "skills_list"
+        file: "content/skills.json"
+        format: json
+        fields:
+          - label: "Skill Categories"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Category Name", name: "category", widget: "string" }
+              - label: "Skills"
+                name: "items"
+                widget: "list"
+                field: { label: "Skill", name: "item", widget: "string" }
+
+  - name: "experience"
+    label: "Experience"
+    files:
+      - label: "Experience List"
+        name: "experience_list"
+        file: "content/experience.json"
+        format: json
+        fields:
+          - label: "Experience"
+            name: "experience"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Company", name: "company", widget: "string" }
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Highlights"
+                name: "highlights"
+                widget: "list"
+                required: false
+                field: { label: "Highlight", name: "item", widget: "string" }

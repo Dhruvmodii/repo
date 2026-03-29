@@ -1,0 +1,48 @@
+{
+  "projects": [
+  {
+    "id": "1",
+    "title": "Mosaic",
+    "description": "A collaborative design tool that lets teams create, annotate, and ship design systems together. Built with real-time sync using CRDTs and a canvas-based rendering engine.",
+    "longDescription": "Mosaic reimagines how design teams collaborate. With live multi-cursor editing, component versioning, and a built-in token system, teams can go from concept to production-ready specs in record time.",
+    "tech": ["React", "TypeScript", "WebSockets", "PostgreSQL", "Rust"],
+    "github": "https://github.com/alexrivera/mosaic",
+    "live": "https://mosaic.app",
+    "featured": true,
+    "year": "2024"
+  },
+  {
+    "id": "2",
+    "title": "Groundwork",
+    "description": "An open-source infrastructure-as-code library for spinning up production-ready cloud environments on AWS and GCP with a single config file.",
+    "longDescription": "Groundwork abstracts the complexity of cloud setup into a human-readable YAML schema. One file, one command — and you have VPCs, databases, queues, and CI/CD pipelines ready to go.",
+    "tech": ["Python", "Terraform", "AWS CDK", "Docker", "GitHub Actions"],
+    "github": "https://github.com/alexrivera/groundwork",
+    "live": "",
+    "featured": true,
+    "year": "2024"
+  },
+  {
+    "id": "3",
+    "title": "Lumen",
+    "description": "A minimal, privacy-first analytics platform for indie developers. No cookies, no GDPR headaches — just clean dashboards and actionable metrics.",
+    "longDescription": "Built as an alternative to bloated analytics suites. Lumen uses fingerprinting techniques that respect user privacy while still giving developers the data they need to improve their products.",
+    "tech": ["Next.js", "Go", "ClickHouse", "Tailwind CSS"],
+    "github": "https://github.com/alexrivera/lumen",
+    "live": "https://uselumen.dev",
+    "featured": false,
+    "year": "2023"
+  },
+  {
+    "id": "4",
+    "title": "Threadline",
+    "description": "A social reading app that turns newsletters and articles into shared, annotatable experiences — like Kindle highlights, but for the web.",
+    "longDescription": "Threadline adds a social layer to reading. Highlight a passage, see what others thought, and follow readers with great taste. Integrations with major newsletter platforms make it easy to import subscriptions.",
+    "tech": ["React Native", "Node.js", "Redis", "Supabase"],
+    "github": "https://github.com/alexrivera/threadline",
+    "live": "",
+    "featured": false,
+    "year": "2023"
+  }
+  ]
+}

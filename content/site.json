@@ -1,0 +1,20 @@
+{
+  "name": "Alex Rivera",
+  "role": "Full-Stack Engineer & Creative Developer",
+  "tagline": "I build things for the web — from pixel-perfect interfaces to resilient backend systems.",
+  "bio": "I'm a full-stack developer with 5+ years of experience turning ideas into elegant, scalable digital products. I care deeply about the craft: clean code, thoughtful design, and experiences that feel effortless.\n\nWhen I'm not coding, I'm likely exploring photography, reading about systems design, or attempting to perfect my espresso technique.",
+  "location": "San Francisco, CA",
+  "email": "hello@alexrivera.dev",
+  "github": "https://github.com/alexrivera",
+  "linkedin": "https://linkedin.com/in/alexrivera",
+  "twitter": "https://twitter.com/alexrivera",
+  "resumeUrl": "/resume.pdf",
+  "availableForWork": true,
+  "photo": "",
+  "stats": [
+    { "value": "5+", "label": "Years experience" },
+    { "value": "40+", "label": "Projects shipped" },
+    { "value": "3", "label": "Companies" },
+    { "value": "∞", "label": "Cups of coffee" }
+  ]
+}

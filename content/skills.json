@@ -1,0 +1,56 @@
+{
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Vue.js",
+        "Tailwind CSS",
+        "Framer Motion",
+        "WebGL",
+        "Three.js"
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "Python",
+        "Go",
+        "Rust",
+        "GraphQL",
+        "REST APIs",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "category": "Infrastructure",
+      "items": [
+        "AWS",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "GitHub Actions",
+        "Vercel",
+        "Netlify"
+      ]
+    },
+    {
+      "category": "Tools & Other",
+      "items": [
+        "Git",
+        "Figma",
+        "Linear",
+        "Notion",
+        "Postman",
+        "DataDog",
+        "Sentry",
+        "Turborepo"
+      ]
+    }
+  ]
+}

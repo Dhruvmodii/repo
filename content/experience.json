@@ -1,0 +1,43 @@
+{
+  "experience": [
+    {
+      "id": "1",
+      "role": "Senior Software Engineer",
+      "company": "Vercel",
+      "period": "2022 \u2014 Present",
+      "location": "Remote",
+      "description": "Lead engineer on the Edge Runtime team. Shipped the Fluid Compute architecture that reduced cold starts by 60%. Mentored a team of 4 engineers and drove adoption of TypeScript strict mode across the codebase.",
+      "highlights": [
+        "Reduced cold start times by 60% through new Fluid Compute architecture",
+        "Led migration of 200k+ functions to new Edge Runtime",
+        "Authored internal RFC process now used across engineering"
+      ]
+    },
+    {
+      "id": "2",
+      "role": "Software Engineer II",
+      "company": "Stripe",
+      "period": "2020 \u2014 2022",
+      "location": "San Francisco, CA",
+      "description": "Worked on the Payments API team, building the infrastructure that processes billions of dollars annually. Owned the dispute and chargeback system end-to-end.",
+      "highlights": [
+        "Built new dispute resolution API serving 50M+ requests/month",
+        "Reduced payment failure rates by 12% through improved retry logic",
+        "Contributed to open-source Stripe SDK libraries"
+      ]
+    },
+    {
+      "id": "3",
+      "role": "Software Engineer",
+      "company": "Linear",
+      "period": "2019 \u2014 2020",
+      "location": "San Francisco, CA",
+      "description": "Early engineer at Linear (pre-launch). Built core product features including the keyboard shortcut system, import tools, and the original mobile apps.",
+      "highlights": [
+        "Designed and built the entire keyboard navigation system",
+        "Built Jira, GitHub, and Notion import integrations",
+        "Shipped iOS and Android apps from scratch"
+      ]
+    }
+  ]
+}
