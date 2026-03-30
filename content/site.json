@@ -1,20 +1,32 @@
 {
-  "name": "Alex Rivera",
-  "role": "Full-Stack Engineer & Creative Developer",
-  "tagline": "I build things for the web — from pixel-perfect interfaces to resilient backend systems.",
-  "bio": "I'm a full-stack developer with 5+ years of experience turning ideas into elegant, scalable digital products. I care deeply about the craft: clean code, thoughtful design, and experiences that feel effortless.\n\nWhen I'm not coding, I'm likely exploring photography, reading about systems design, or attempting to perfect my espresso technique.",
-  "location": "San Francisco, CA",
-  "email": "hello@alexrivera.dev",
-  "github": "https://github.com/alexrivera",
-  "linkedin": "https://linkedin.com/in/alexrivera",
-  "twitter": "https://twitter.com/alexrivera",
-  "resumeUrl": "/resume.pdf",
+  "resumeUrl": "",
+  "github": "https://github.com/Dhruvmodii",
+  "bio": "I'm a QA Tester with hands-on experience in manual testing, test case creation, and mobile application testing. I focus on identifying issues early and ensuring smooth user experiences across web and mobile platforms. I enjoy exploring testing tools, learning automation with Appium, and improving product reliability through structured testing processes. When I'm not testing applications, I like learning new automation techniques, exploring software tools, and improving my technical skills.",
+  "name": "Dhruv Modi",
+  "tagline": "Detail-oriented QA Tester passionate about improving product quality.",
   "availableForWork": true,
-  "photo": "",
+  "photo": "/uploads/1000000075.jpeg",
+  "twitter": "",
+  "location": "Ahmedabad, Gujarat, India",
+  "role": "Quality Analyst",
+  "email": "modidhruv737@gmail.com",
+  "linkedin": "https://linkedin.com/in/DhruvRajnikantModi",
   "stats": [
-    { "value": "5+", "label": "Years experience" },
-    { "value": "40+", "label": "Projects shipped" },
-    { "value": "3", "label": "Companies" },
-    { "value": "∞", "label": "Cups of coffee" }
+    {
+      "value": "1+",
+      "label": "Years experience"
+    },
+    {
+      "value": "10+",
+      "label": "Projects shipped"
+    },
+    {
+      "value": "1",
+      "label": "Companies"
+    },
+    {
+      "value": "∞",
+      "label": "Cups of coffee"
+    }
   ]
 }
